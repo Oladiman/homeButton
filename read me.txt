@@ -1,0 +1,17 @@
+1 : Open the "demo.html" and be free to play around with the addToHomecreen() function and see how it works to suit your need
+
+2 : Replace "intendedSiteIcon.png" with the intended Site Icon image
+
+3 : Change all reference in your codes(demo.html and dalespersonalcard.html) from "intendedSiteIcon.png" to the name of the image icon added in step @2 above
+
+4 : Your code should prompt the user to add to screen once online
+
+5 : You can dissable step @4 by commenting out the sript section containing the addToScreen() function in the Head section
+
+6 : A 'Add to Home' botton is created at the bottom of the site once loaded
+
+7 : The sript in the lower part of the body section should prompt the user to add to screen once the 'Add to Home' Button @6 is clicked
+
+8 : A link has been added to dalespersonalcard.html head to create an icon for the site in the browser tab.
+
+9 : Test for proper functionality.

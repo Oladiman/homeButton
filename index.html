@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dale's Digital Business Card</title>
+<link  rel="icon" type="image/png" sizes="64x64" href="./intendedSiteIcon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./intendedSiteIcon.png">
+<link rel="stylesheet" type="text/css" href="./addtohomescreen.css">
+<script src="./addtohomescreen.js"></script>
+<script type="text/javascript">
+	addToHomescreen();
+</script>
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	left:115px;
+	top:50px;
+	width:750px;
+	height:1334px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	width:624px;
+	height:358px;
+	z-index:2;
+	left: 178px;
+	top: 798px;
+}
+#clicks{
+    position:absolute;
+	height: 50px;
+    width:100px;
+    border: blue 3px solid;
+	border-radius: 5px;
+	border-width: 4px;
+	top:1398px;
+    left:178px;
+	margin-bottom: 10px;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="apDiv1"><img src="./dalepersonalcard.jpg" width="750" height="1334" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="71,511,351,559" />
+  <area shape="rect" coords="592,592,690,731" href="tel:4234088225‬" />
+  <area shape="rect" coords="484,592,584,728" href="facetime://4233058630" />
+  <area shape="rect" coords="591,752,689,881" href="https://www.messenger.com/t/dale.mcnelly" />
+  <area shape="rect" coords="486,751,585,879" href="https://www.linkedin.com/in/dale-mcnelly-a1245547" />
+  <area shape="rect" coords="169,589,270,728" href="sms:14233058630" />
+  <area shape="rect" coords="278,751,373,880" href="https://twitter.com/DaleMcNelly" />
+  <area shape="rect" coords="277,590,370,730" href="http://www.newdigitalcard.com" />
+<area shape="rect" coords="375,592,476,731" href="mailto:dale@newdigitalcard.com" />
+<area shape="rect" coords="66,591,163,727" href="tel:4233058630" />
+<area shape="rect" coords="60,754,159,883" href="https://www.facebook.com/pg/TimeForANewConversation" target="_blank" />
+<area shape="rect" coords="172,750,270,883" href="https://www.instagram.com/dalemcnelly/" />
+<area shape="rect" coords="381,751,478,878" href="https://www.youtube.com/channel/UC3nI3Tbal0RzMNGMa2FTlYw?view_as=subscriber" />
+<area shape="rect" coords="73,923,682,1272" href="https://youtu.be/NXUTs-DEAIU" />
+<area shape="rect" coords="246,1287,472,1319" href="http://www.newdigitalcard.com" />
+<area shape="rect" coords="35,32,260,149" href="http://www.newdigitalcard.com" />
+</map>
+</div>
+<div id="buttons">
+					<button id="clicks">Add to Home</button>
+</div>
+<script type="text/javascript">
+	document.getElementById("clicks").onclick= function(){
+		addToHomescreen();
+		alert("This site has been added to your home screen");
+	}
+</script>
+</body>
+</html>
